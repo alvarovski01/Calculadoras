@@ -1,7 +1,9 @@
 #include <iostream>
+#include <tchar.h>
 using namespace std;
 
 int main() {
+    _tsetlocale(LC_ALL, _T("portuguese"));
     int a11, a12, a13, a21, a22, a23, a31, a32, a33, detA;
     cout << "<Calculadora de Determinates (Sarrus Edition)>" << endl;
 
@@ -33,7 +35,7 @@ int main() {
     cin >> a33;
     cout << " " << endl;
 
-    cout << "Esta é a sua matriz descrita: " << endl;
+    cout << "Esta Ã© a sua matriz descrita: " << endl;
 
     cout << " " << endl;
 
